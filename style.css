@@ -55,26 +55,32 @@ h1:hover {
 h2 {
     text-align: center;
     color: orange;
+     font-size: 50px;
 }
 h2:hover {
     color: white;
 }
-.link-nav{
+nav {
    color: white;
    text-decoration: none;
-   font-size: 28px;
+   font-size: 20px;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align: center;
 } 
 
 
+
 p{
   color: bisque;  
   text-align: center;
+  font-weight: bold;
 }
   
 .social {
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header {
     height: 100vh;
