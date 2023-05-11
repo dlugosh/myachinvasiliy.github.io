@@ -52,7 +52,13 @@ h1 {
 h1:hover {
   color: orange;
 }
-
+h2 {
+    text-align: center;
+    color: orange;
+}
+h2:hover {
+    color: white;
+}
 .link-nav{
    color: white;
    text-decoration: none;
