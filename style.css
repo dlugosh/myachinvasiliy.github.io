@@ -75,7 +75,12 @@ p{
   text-align: center;
   font-weight: bold;
 }
-  
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social {
     border: none;
     display: flex;
