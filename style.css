@@ -71,7 +71,7 @@ nav {
 
 
 p{
-  color: bisque;  
+  color: rgb(78, 178, 178);  
   text-align: center;
   font-weight: bold;
 }
@@ -159,7 +159,7 @@ p{
   left: -1.5em;
   width: 1.875em;
   text-align: center;
-  color: white;
+  color: black;
   font-weight: bold;
   background: orange;
   border-bottom-left-radius: 70em;
@@ -168,7 +168,8 @@ p{
   content: counter(li);
 }
 li {
-    color: white;
+  list-style-position:inside;
+    color: black;
     text-align: center;
 }
 .footer{
@@ -199,7 +200,9 @@ transition:0.5s;
 .footer .row a:hover{
 color:#fff;
 }
-
+.link-text{
+  color: rgb(15, 100, 12);
+}
 
 .footer .row ul{
 width:100%;
@@ -230,6 +233,5 @@ text-align:left;
 }
 .footer .row a i{
 margin:0% 3%;
-}
 }
 
